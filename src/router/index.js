@@ -1,6 +1,6 @@
 import App from '../App.vue'
 import Login from '../Login.vue';
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory  } from 'vue-router'
 const routes = [
     { path: '/', component: App },
     { path: '/login', component: Login },
